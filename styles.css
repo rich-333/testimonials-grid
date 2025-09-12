@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
   /* COLORS */
@@ -26,4 +27,86 @@ body {
   font-family: var(--font-primary);
   padding: 0;
   font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-grey-100);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  /*max-width: 1000px;*/
+  width: 300px;
+  min-width: 280px;
+  gap: 2rem;
+  margin: 40px 0;
+}
+
+.section{
+  padding: 2.3rem;
+  color: var(--color-grey-100);
+  border-radius: 0.3rem;
+}
+
+.section__daniel {
+  background-color: var(--color-purple-500);
+}
+
+.section__header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.section__img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-grey-100);
+  padding: 0.1rem;
+}
+
+.section__profile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.section__name {
+  font-weight: 500;
+}
+
+.section__graduate {
+  font-size: 0.6rem;
+}
+
+.section__subtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.section__paragraph {
+  font-size: 0.75rem;
+  font-weight: 500;
+  /*color: var(--color-grey-200);*/
+  line-height: 1.6;
+}
+
+.section__jonathan {
+  background-color: var(--color-grey-500);
+}
+
+.section__jeanette {
+  background-color: var(--color-white);
+  color: var(--color-grey-400);
+}
+
+.section__patrick {
+  background-color: var(--color-dark-blue);
+}
+
+.section__kira {
+  background-color: var(--color-white);
+  color: var(--color-grey-500);
 }
